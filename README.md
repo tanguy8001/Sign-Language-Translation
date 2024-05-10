@@ -1,8 +1,4 @@
-# BOREALIS AI SLI: Grand River Translation
-
-<!-- <div align="center">
-<img src="figs/framework.png" width="95%">
-</div> -->
+# BOREALIS AI LSI: Grand River Translation
 
 ## Pre-trained Weights
 ### YouTubeASL
