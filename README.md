@@ -138,18 +138,4 @@ torchrun --nnodes=1 --nproc_per_node=$GPUS train_openasl_pose_DDP_inter_VN.py \
 
 ## Acknowledgements
 Huge thanks to the GloFE paper authors for sharing their code and helping us achieve our end-to-end pipeline!
-```
-@inproceedings{lin-etal-2023-gloss,
-    title = "Gloss-Free End-to-End Sign Language Translation",
-    author = "Lin, Kezhou  and Wang, Xiaohan  and Zhu, Linchao  and Sun, Ke  and Zhang, Bang  and Yang, Yi",
-    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
-    month = jul,
-    year = "2023",
-    address = "Toronto, Canada",
-    publisher = "Association for Computational Linguistics",
-    url = "https://aclanthology.org/2023.acl-long.722",
-    doi = "10.18653/v1/2023.acl-long.722",
-    pages = "12904--12916",
-}
-
-```
+Lin, K., Wang, X., Zhu, L., Sun, K., Zhang, B., & Yang, Y. (2023). Gloss-Free End-to-End Sign Language Translation. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers) (pp. 12904–12916). Association for Computational Linguistics.
