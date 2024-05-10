@@ -1,0 +1,26 @@
+compute1080ti05s
+15 ♪
+Traceback (most recent call last):
+  File "analyse_word_embd_ytasl.py", line 131, in <module>
+    ref_word_list = word_tokenize(trans)
+  File "/home/grt/anaconda3/envs/glofe/lib/python3.8/site-packages/nltk/tokenize/__init__.py", line 129, in word_tokenize
+    sentences = [text] if preserve_line else sent_tokenize(text, language)
+  File "/home/grt/anaconda3/envs/glofe/lib/python3.8/site-packages/nltk/tokenize/__init__.py", line 107, in sent_tokenize
+    return tokenizer.tokenize(text)
+  File "/home/grt/anaconda3/envs/glofe/lib/python3.8/site-packages/nltk/tokenize/punkt.py", line 1281, in tokenize
+    return list(self.sentences_from_text(text, realign_boundaries))
+  File "/home/grt/anaconda3/envs/glofe/lib/python3.8/site-packages/nltk/tokenize/punkt.py", line 1341, in sentences_from_text
+    return [text[s:e] for s, e in self.span_tokenize(text, realign_boundaries)]
+  File "/home/grt/anaconda3/envs/glofe/lib/python3.8/site-packages/nltk/tokenize/punkt.py", line 1341, in <listcomp>
+    return [text[s:e] for s, e in self.span_tokenize(text, realign_boundaries)]
+  File "/home/grt/anaconda3/envs/glofe/lib/python3.8/site-packages/nltk/tokenize/punkt.py", line 1329, in span_tokenize
+    for sentence in slices:
+  File "/home/grt/anaconda3/envs/glofe/lib/python3.8/site-packages/nltk/tokenize/punkt.py", line 1459, in _realign_boundaries
+    for sentence1, sentence2 in _pair_iter(slices):
+  File "/home/grt/anaconda3/envs/glofe/lib/python3.8/site-packages/nltk/tokenize/punkt.py", line 321, in _pair_iter
+    prev = next(iterator)
+  File "/home/grt/anaconda3/envs/glofe/lib/python3.8/site-packages/nltk/tokenize/punkt.py", line 1431, in _slices_from_text
+    for match, context in self._match_potential_end_contexts(text):
+  File "/home/grt/anaconda3/envs/glofe/lib/python3.8/site-packages/nltk/tokenize/punkt.py", line 1395, in _match_potential_end_contexts
+    for match in self._lang_vars.period_context_re().finditer(text):
+TypeError: expected string or bytes-like object

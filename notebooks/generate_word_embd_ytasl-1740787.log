@@ -1,0 +1,5 @@
+compute1080ti05s
+Traceback (most recent call last):
+  File "notebooks/analyse_word_embd_ytasl.py", line 56, in <module>
+    with open('ytasl-v1.0/uncased_filtred_VNs.json', 'w') as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'ytasl-v1.0/uncased_filtred_VNs.json'
